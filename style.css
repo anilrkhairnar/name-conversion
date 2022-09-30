@@ -1,0 +1,108 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.naming_conversion {
+  padding: 2rem;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255 255 255 / 50%);
+  border-radius: 1rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.naming_conversion .form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.naming_conversion #text {
+  margin-bottom: 1rem;
+  padding: 0 56px 0 15px;
+  width: 63%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+  color: #696969;
+  line-height: 45px;
+  outline: 0;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.naming_conversion #text:focus {
+  border-color: #0366d6;
+  outline: none;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+#convert-btn {
+  margin-bottom: 1rem;
+  padding: 0 56px;
+  display: inline-block;
+  height: 45px;
+  font-weight: 700;
+  font-size: 16px;
+  background: #6daaff;
+  color: #ffffff;
+  line-height: 45px;
+  border: none;
+  border-radius: 7px;
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: all 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+#convert-btn:hover {
+  background: #5ca0ff;
+  box-shadow: 0 6px 20px rgb(93 93 93 / 23%);
+}
+.naming_conversion .cases_div {
+  padding: 0.7em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+}
+
+.case_div p {
+  margin-bottom: 1rem;
+  padding: 0 56px 0 15px;
+  min-height: 45px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 3rem;
+  background: #fff;
+  color: #696969;
+  outline: 0;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.case_div h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 0;
+  color: #636363;
+}
